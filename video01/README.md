@@ -1,5 +1,9 @@
 # Video 01 - Simulador de processos de um Sistema Operacional
 
+## Arquivos
+[processo.py](https://github.com/ArthurRCastilho/Sistemas-Operacionais/blob/main/video01/processo.py) - Classe Processo com Atributos e metodos
+[simulacao_processos.py](https://github.com/ArthurRCastilho/Sistemas-Operacionais/blob/main/video01/simulacao_processos.py) - Arquivo "Main" onde faz toda a simulação solicitada na atividade
+
 # Descrição da Atividade
 
 Criar uma aplicação em (Qualquer Linguagem),  para simular a mudança de estados dos processos num SO. Nesse sistema operacional, estão em execução 10 processos que são colocados para a execução em ordem do seu PID (Identificador de processo que vai de 0 a 9) com tempo de duração distintos. 
@@ -47,4 +51,4 @@ PID  |   Tempo de Execução para terminar a execução (Em ciclos)
  ----->>>>> Obs 5.: Quando um processo termina sua execução ele deve imprimir todos os seus parâmetros na tela.
 
 ## Link do Vídeo
-https://
+[Link Youtube da Explicação do Código](https://youtu.be/NRNuyoVaq-4)
