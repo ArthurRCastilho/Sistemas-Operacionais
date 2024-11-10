@@ -14,27 +14,27 @@ Cada vez que um processo passar do estado de PRONTO para EXECUTANDO, os dados do
 
 O tempo de execução de cada processo segue a seguinte Tabela:
 
-PID     Tempo de Execução para terminar a execução (Em ciclos)
+PID  |   Tempo de Execução para terminar a execução (Em ciclos)
 
-0          10000
+0     |     10000
 
-1          5000
+1     |     5000
 
-2          7000
+2     |    7000
 
-3          3000
+3     |    3000
 
-4          3000
+4     |    3000
 
-5          8000
+5     |    8000
 
-6          2000
+6    |     2000
 
-7          5000
+7    |     5000
 
-8          4000
+8    |     4000
 
-9          10000
+9    |     10000
 
  ----->>>>> Obs 1.: O parâmetro TP da nossa simulação vai armazenar o total de ciclos já executados pelo processo.
 
