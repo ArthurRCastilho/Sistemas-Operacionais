@@ -23,15 +23,14 @@ while any(p.tempo_total > p.tp for p in processos):  # Continua enquanto algum p
         if processo.tp >= processo.tempo_total:
             continue  # Pula processos que já finalizaram
         
-        # Restaurando o processo
+        # Execução do processo
         processo.estado = "EXECUTANDO"
         processo.n_cpu += 1  # Incrementa N_CPU ao iniciar a execução
         processo.atualizar_linha_tabela(index + 1)
         quantum_restante = QUANTUM
         
         while quantum_restante > 0:
-            # Pausa para simular execução mais lenta
-            time.sleep(0.0005)  # Pausa de 0.5 milissegundos (ajuste conforme necessário)
+            time.sleep(0.0005)  # Pausa de 0.5 milissegundos 
             
             # Simula o uso da CPU
             processo.tp += 1
@@ -39,7 +38,7 @@ while any(p.tempo_total > p.tp for p in processos):  # Continua enquanto algum p
             quantum_restante -= 1
             
             # Chance de realizar operação de E/S
-            if random.random() <= 0.01:  # 1% de chance
+            if random.random() <= 0.01:  # 1% de chance de entrar no estado BLOQUEADO
                 processo.nes += 1
                 processo.estado = "BLOQUEADO"
                 processo.atualizar_linha_tabela(index + 1)

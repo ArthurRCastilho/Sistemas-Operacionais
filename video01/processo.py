@@ -1,5 +1,7 @@
 # Classe para representar cada processo
 class Processo:
+    # A classe contém os atribustos e metódos necessários para simular a execução de um processo
+    # O construtor inicia recebendo o tempo total, e o pid, além de outros atributos que já são pré-definidos
     def __init__(self, pid, tempo_total):
         self.pid = pid
         self.tempo_total = tempo_total
@@ -9,6 +11,7 @@ class Processo:
         self.nes = 0  # Número de vezes que realizou E/S
         self.n_cpu = 0  # Número de vezes que usou a CPU
 
+    # Aqui temos um método responsável por abrir o arquivo txt e atualizar os valores de cada processo
     def atualizar_linha_tabela(self, posicao_linha):
         """Atualiza a linha correspondente ao processo no arquivo de tabela"""
         with open("tabela_processos.txt", "r+") as f:
