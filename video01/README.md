@@ -2,6 +2,7 @@
 
 ## Arquivos
 [processo.py](https://github.com/ArthurRCastilho/Sistemas-Operacionais/blob/main/video01/processo.py) - Classe Processo com Atributos e metodos
+<br>
 [simulacao_processos.py](https://github.com/ArthurRCastilho/Sistemas-Operacionais/blob/main/video01/simulacao_processos.py) - Arquivo "Main" onde faz toda a simulação solicitada na atividade
 
 # Descrição da Atividade
