@@ -4,4 +4,4 @@
 Problema dentro do PDF [Algoritmo de Gerênciamento de memoria](https://drive.google.com/file/d/1LFYOt--_M6auJPJxfilybJHcHaz5AWIR/view)
  
 ## Códigos
-[Main.py](https://github.com/ArthurRCastilho/Sistemas-Operacionais/tree/main/Atividades/) <br>
+[Main.py](https://github.com/ArthurRCastilho/Sistemas-Operacionais/tree/main/Atividades/Memoria%20Com%20Mapa%20de%20Bits/main.py) <br>
