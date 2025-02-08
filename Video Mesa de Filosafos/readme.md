@@ -1,9 +1,12 @@
 # Jantar dos Filósofos 
 
 ## Código
-[Filosofo.java]()<br>
-[Gargo.java]()<br>
-[JantarDosFilosofos]()<br>
+[Filosofo.java](https://github.com/ArthurRCastilho/Sistemas-Operacionais/blob/main/Video%20Mesa%20de%20Filosafos/FilosofosProblema/src/Filosofo.java)<br>
+[Gargo.java](https://github.com/ArthurRCastilho/Sistemas-Operacionais/blob/main/Video%20Mesa%20de%20Filosafos/FilosofosProblema/src/Garfo.java)<br>
+[JantarDosFilosofos](https://github.com/ArthurRCastilho/Sistemas-Operacionais/blob/main/Video%20Mesa%20de%20Filosafos/FilosofosProblema/src/JantarDosFilosofos.java)<br>
+<br>
+
+[Link Vídeo](https://youtu.be/wE5EINy8xfA)<br>
 
 ## Descrição do Problema
 Fazer um program em Java, utilizando Threads, para solucionar o problema dos filósofos Glutões. Faça um vídeo de 10 a 15 min. apresentando o código, a explicação do problema e a execução do programa.
